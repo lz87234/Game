@@ -8,10 +8,6 @@ using static Global;
 public class CustomTile {
   public static ConcurrentDictionary<Vector2Int, CustomTile> tiles = new();
 
-  public static CustomTile getData(Vector2Int pos) {
-    return tiles[pos];
-  }
-
   public Tile tile { get; private set; }
   public Vector2Int pos { get; private set; }
   public Vector2 offset { get; private set; }
@@ -19,7 +15,7 @@ public class CustomTile {
   public float dir { get; private set; }
   public bool discarded { get; private set; }
 
-  public string type;
+  public string type { get => tile.ToString(); }
   public bool moved;
 
   public CustomTile(Tilemap tilemap, Tile tile, Vector2Int pos = new(), float dir = 0f, Vector2 offset = new()) {

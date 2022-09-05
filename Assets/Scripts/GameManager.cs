@@ -8,13 +8,25 @@ using static Global;
 public class GameManager : MonoBehaviour {
   public Tilemap tilemap;
   public new Camera camera;
-  public List<Tile> tiles;
+
+  [SerializeField]
+  private List<Tile> TileAssets;
+
+  [SerializeField]
+  private TilesGetter tiles;
+  private class TilesGetter {
+    private List<Tile> tiles;
+    public TilesGetter(List<Tile> tiles) {
+      this.tiles = tiles;
+    }
+    public Tile this[int index] { get => tiles[index]; }
+    public Tile this[string name] { get => tiles.FirstOrDefault(x => x.ToString() == name); }
+  }
 
   private void Start() {
-    new CustomTile(tilemap, tiles[12], new(0, 0), 90f);
-    last.type = "mover";
-    new CustomTile(tilemap, tiles[12], new(0, 1), 90f);
-    last.type = "mover";
+    tiles = new(TileAssets);
+    new CustomTile(tilemap, tiles["mover"], new(0, 0), 90f);
+    new CustomTile(tilemap, tiles["slide"], new(0, 1), 90f);
     InvokeRepeating("Tick", 0.2f, 0.2f);
   }
 
