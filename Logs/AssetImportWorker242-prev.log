@@ -1,0 +1,254 @@
+Unity Editor version:    2022.1.5f1 (feea5ec8f162)
+Branch:                  2022.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5 (Build 21G72)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Volumes/320G/Unity/Editor/2022.1.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker242
+-projectPath
+/Volumes/320G/Unity/Game
+-logFile
+Logs/AssetImportWorker242.log
+-srvPort
+65194
+Successfully changed project path to: /Volumes/320G/Unity/Game
+/Volumes/320G/Unity/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+      9480 10a8ec580 -
+      9480 2ae927000 -
+      9480 17ea47000 -
+     13588 10a4a0580 -
+     13590 1089ac580 -
+     13618 108cd4580 1826
+     13620 108698580 1826
+     13663 1069f8580 -
+     13665 106a9c580 -
+     13785 1064f4580 -
+     13783 1089f0580 -
+     13824 10a170580 -
+     13821 107f7c580 -
+     15424 106820580 -
+     13877 10a0ec580 -
+     13880 10813c580 -
+     13923 108308580 -
+     13921 10a8b8580 -
+     13951 10a9b8580 -
+     13953 106358580 -
+     14061 108f2c580 -
+     14064 10abbc580 -
+     14093 1069a8580 -
+     14095 10a890580 -
+     14132 10a7a8580 -
+     14130 1069f8580 -
+     14163 10637c580 -
+     14165 1063f4580 -
+     14194 1084d4580 -
+     14192 10813c580 -
+     14220 10a894580 -
+     14222 10abbc580 -
+     14331 10682c580 -
+     14333 106cac580 -
+     14360 10ad3c580 -
+     14362 106d18580 -
+     14393 108568580 -
+     14387 10acf0580 -
+     14439 10a464580 -
+     14436 108f80580 -
+     14467 109f28580 -
+     14465 10641c580 -
+     14495 10a1a4580 -
+     14493 10a358580 -
+     14606 106b7c580 -
+     14604 10629c580 -
+     14632 106698580 -
+     14634 106ee0580 -
+     14665 106560580 -
+     14663 108f94580 -
+     14698 1063c8580 -
+     14696 105ee8580 -
+     14737 106dd0580 -
+     14739 10afc0580 -
+     14770 108134580 -
+     14772 106a90580 -
+     14878 10b088580 -
+     14880 10885c580 -
+     14909 108748580 -
+     14907 10aff4580 -
+     14938 108bc8580 -
+     14940 10ab6c580 -
+     14973 107d34580 -
+     14975 10aadc580 -
+     15000 1088c4580 -
+     15002 10aeb8580 -
+     15031 106320580 -
+     15033 108850580 -
+     15150 10aeb4580 -
+     15152 108a54580 -
+     15179 108740580 -
+     15181 106c80580 -
+     15215 10aaa8580 -
+     15213 1068c8580 -
+     15253 1088e4580 -
+     15255 106f48580 -
+     15282 108cbc580 -
+     15280 1061cc580 -
+     15316 109ed0580 -
+     15314 106974580 -
+     15422 10a51c580 -
+     15451 1088a0580 -
+     15449 108d2c580 -
+     15477 108a34580 -
+     15479 106074580 -
+     15509 10a0d8580 -
+     15511 10664c580 -
+      9480 2b73cf000 -
+     15539 109e8c580 -
+     15541 106294580 -
+     15569 10a128580 -
+     15571 10a71c580 -
+     15682 10a9d4580 -
+     15684 106610580 -
+     15719 106118580 -
+     15717 108288580 -
+     15750 10641c580 -
+     15748 108350580 -
+     15781 10a398580 -
+      9480 2ae5e3000 -
+     15783 10a8b8580 -
+     15806 108468580 -
+     15813 10a748580 -
+     15847 10ad70580 -
+     15849 1063a0580 -
+     15958 108e3c580 -
+     15956 10a1e8580 -
+     15986 108dc0580 -
+     15988 1064a4580 -
+     16015 10600c580 -
+     16017 10a6d4580 -
+     16045 10ad60580 -
+     16047 106630580 -
+     16069 1064e8580 -
+     16071 10af68580 -
+     16101 10a7ec580 -
+     16099 1082ec580 -
+     16214 108f28580 -
+     16212 10821c580 -
+     16245 1062f8580 -
+     16243 1086a4580 -
+     16278 10a444580 -
+     16276 10626c580 -
+     16305 108414580 -
+     16307 106728580 -
+     16332 108c40580 -
+Cleaned out 120 stale readers
+Refreshing native plugins compatible for Editor in 482.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.5f1 (feea5ec8f162)
+[Subsystems] Discovering subsystems at path /Volumes/320G/Unity/Editor/2022.1.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/320G/Unity/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Volumes/320G/Unity/Editor/2022.1.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Volumes/320G/Unity/Editor/2022.1.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Volumes/320G/Unity/Editor/2022.1.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56330
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Volumes/320G/Unity/Editor/2022.1.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Volumes/320G/Unity/Editor/2022.1.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Volumes/320G/Unity/Editor/2022.1.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Volumes/320G/Unity/Editor/2022.1.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Volumes/320G/Unity/Editor/2022.1.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.069595 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (367ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (419ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+				TypeCache.Initialize (79ms)
+					TypeCache.ScanAssembly (78ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.157691 seconds.
+Android Extension - Scanning For ADB Devices 3761 ms
